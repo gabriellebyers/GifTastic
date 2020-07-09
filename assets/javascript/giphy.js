@@ -38,7 +38,7 @@ $(".emotion").on("click", function() {
     var emotion = $(this).attr("data-name");
 
     // Constructing a queryURL using the emotion name
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       emotion + "&api_key=94n5NFxVL6AJ9JnsLMcqySUyiqcllpTz&limit=10";
 
     // Performing an AJAX request with the queryURL
